@@ -15,7 +15,7 @@ from isaaclab.assets.articulation import ArticulationCfg
 
 SHADOW_HAND_UR10E_ARM_CFG = ArticulationCfg(
     spawn=sim_utils.UsdFileCfg(
-        usd_path="assets/shadowhand_ur10e.usd",
+        usd_path="assets/shadow_ur10.usd",
         activate_contact_sensors=False,
         rigid_props=sim_utils.RigidBodyPropertiesCfg(
             disable_gravity=False,
