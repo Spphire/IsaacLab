@@ -215,6 +215,7 @@ class ShadowHandUr10eArmEnvCfg(DirectRLEnvCfg):
     reset_dof_vel_noise = 0.0  # range of dof vel at reset
     # reward scales
     vel_obs_scale = 0.2
+    act_moving_average = 1.0
     
     forearm_linvel_error_threshold = 0.2
     forearm_rotvel_error_threshold = 0.4
